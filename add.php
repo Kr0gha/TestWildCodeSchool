@@ -2,7 +2,7 @@
 header('location:index.php');
 include('Count.php');
     
-    if ($row_cnt < 15) {
+    if ($row_cnt < 50) {
         
     
         // on inclut la connexion a la base

@@ -3,7 +3,7 @@
 
 require_once('connect.php'); // require_once a faire de faire la requête une seul fois
 
-$sql1 = 'SELECT * FROM `menbers` ORDER BY `user_id` LIMIT 0,5'; // ajouter LIMIT pour limiter le nombre de donnée a ajouter
+$sql1 = 'SELECT * FROM `menbers` ORDER BY `user_id` LIMIT 0,20'; // ajouter LIMIT pour limiter le nombre de donnée a ajouter
 
 // preparation de la requête
 $query = $db->prepare($sql1);
@@ -17,7 +17,7 @@ $result1 = $query->fetchAll(PDO::FETCH_ASSOC);
 ////
 
 
-$sql2 = 'SELECT * FROM `menbers` ORDER BY `user_id` LIMIT 5,5 '; 
+$sql2 = 'SELECT * FROM `menbers` ORDER BY `user_id` LIMIT 20,20 '; 
 $query = $db->prepare($sql2);
 // execution de la requete 
 $query->execute();
@@ -26,7 +26,7 @@ $result2 = $query->fetchAll(PDO::FETCH_ASSOC);
 
 ////
 
-$sql3 = 'SELECT * FROM `menbers` ORDER BY `user_id` LIMIT 10,5'; // ajouter LIMIT pour limiter le nombre de donnée a ajouter
+$sql3 = 'SELECT * FROM `menbers` ORDER BY `user_id` LIMIT 40,10'; // ajouter LIMIT pour limiter le nombre de donnée a ajouter
 
 // preparation de la requête
 $query = $db->prepare($sql3);

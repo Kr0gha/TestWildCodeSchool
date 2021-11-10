@@ -39,10 +39,10 @@ include('Count.php');
   
       <!-- Member list -->
 
-      <h2>Membres de l'équipage</h2>
+      <h2 id="TitleList">Membres de l'équipage</h2>
 <div class="MenberList">
 
-    <div id="Part1" style="display:block">
+    <div id="Part1" style="display:block;">
 
 <?php
   foreach($result1 as $List){
