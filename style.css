@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  background: #f4f4f4;
+  text-align: center;
+  padding: 2em;
+}
+
+header img {
+  max-width: 96px;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+footer {
+  position:absolute;
+  bottom:0; 
+  width: 100%;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+#Subtitle{
+  font-style: italic;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.new-member-form {
+  margin: 2em 0 4em 0;
+  text-align: center;
+}
+
+.member-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 20em;
+  margin: 0 auto;
+
+}
+
+.MenberList{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+}
+
+.MenberList li {
+  list-style: none;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 200px;
+
+}
+
+.MenberList a{
+  border-radius: 5px;
+  border-color: Balck;
+  background-color: grey;
+  outline: none;
+  text-decoration: none;
+  color: white;
+  margin-left: 0px;
+  background: #4A78FF;
+  text-align: center;
+  width: 100px;
+}
+
+.MenberList a:hover{
+  color: white;
+  outline: none;
+  text-decoration: none;
+  background-color: #fe5e4f;
+  /*Ajouter BoxShadow*/
+}
+
+
+.MenberList ul{
+  margin: 10px;
+  padding: 0;
+}
+
+.Deco{
+height: inherit;
+background-color: lightgrey;
+border: 1px solid;
+border-color: lightgrey;
+}
+
+footer {
+  margin-top: 2em;
+  text-align: center;
+  color: #fff;
+  background: #f76c6c;
+  padding: 0.25em 0;
+  position: fixed;
+  bottom: 0px;
+  margin-bottom: 0px;
+
+}
+
+
+
+
