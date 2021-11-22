@@ -9,16 +9,16 @@ include('Count.php');
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="Script.js"></script>
   <link rel="stylesheet" type="text/css" href="style.css">
   <title></title>
 </head>
 
-<body onload="myFunction()">
+<body>
 <!-- Header section -->
 <header>
   <h1>
-    <img src="https://www.wildcodeschool.com/assets/logo_main-e4f3f744c8e717f1b7df3858dce55a86c63d4766d5d9a7f454250145f097c2fe.png" alt="Wild Code School logo"/>
+    <a   href="https://argo.wildcodeschool.com/"><img class="jello-horizontal" src="https://www.wildcodeschool.com/assets/logo_main-e4f3f744c8e717f1b7df3858dce55a86c63d4766d5d9a7f454250145f097c2fe.png" alt="Wild Code School logo"/></a>
     Les Argonautes
   </h1>
 </header>
@@ -34,7 +34,7 @@ include('Count.php');
       <form class="new-member-form" action="add.php" method="post">
         <label for="name">Nom de l&apos;Argonaute</label>
         <input type="text" id="Name" name="Name" autofocus placeholder="Charalampos" maxLength="12" />
-        <button type="submit" id="Btn-Launch">ADD</button>
+        <button type="submit" id="Btn-Launch" onclick="myFunction()">ADD</button>
       </form>
   
       <!-- Member list -->
@@ -58,7 +58,6 @@ include('Count.php');
     </div>
 
     <!-- -->
-    <div class="Deco" id="Dec_01" style="display:none"></div>
 
 
     <div id="Part2" style="display:block">
@@ -76,7 +75,6 @@ include('Count.php');
     </div>
 
   <!-- -->
-  <div class="Deco" id="Dec_02" style="display:none"></div>
 
     <div id="Part3" style="display:block">
 
