@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+a{
+  text-decoration: none;
+  color: white;
+  font-style: oblique;
+}
+
+a:hover{
+  color: blue;
+text-decoration: underline;
+}
 
 body {
   margin: 0;
@@ -16,10 +26,13 @@ header {
   background: #f4f4f4;
   text-align: center;
   padding: 2em;
+  box-shadow: 3px 16px 25px -13px #C3C3C3;
+  border-bottom: 1px solid;
+  border-color: lightgrey;
 }
 
 header img {
-  max-width: 96px;
+  max-width: 120px;
 }
 
 header h1 {
@@ -65,12 +78,16 @@ label {
 
 .MenberList{
 display: flex;
+background-color: #f4f4f4;
 flex-direction: row;
 justify-content: space-around;
 margin-bottom: 50px;
 height: 300px;
 overflow-y: scroll;
 margin-bottom: 50px;
+box-shadow: 15px 15px 25px -5px rgba(195,195,195,0.5);
+border-bottom: 1px solid;
+border-color: lightgrey;
 }
 
 .MenberList li {

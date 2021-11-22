@@ -22,6 +22,7 @@ include('Count.php');
     Les Argonautes
   </h1>
 </header>
+<span id="Banner"></span>
 
 <!-- Main section -->
 <main>
@@ -98,7 +99,7 @@ include('Count.php');
 
 
 <footer>
-  <p>Réalisé par Alex-andros sanós en Anthestérion de l'an 515 avant JC</p>
+  <p>Réalisé par <a href="https://foin-alexandre.notion.site/D-veloppeur-Junior-fe3d8ea7dabb4595968b052598253747">Alex-andros</a> sanós en Anthestérion de l'an 515 avant JC</p>
 </footer>
 
 </body>
